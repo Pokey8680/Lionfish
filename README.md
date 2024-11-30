@@ -6,11 +6,13 @@ A tool for updating PHH-Based GSIs without going to fastbootd
 
 - After installation, it will make a folder in your userdata called ManualOTA.
 
+- - If it doesn't make the folder, you can make it yourself. Remember to place it in storage/emulated/0/
+
 - Transfer the updated image of your GSI (unparsed) to the ManualOTA folder, and rename it to "system.img".
 
 - Go into a terminal emulator app (For example: Termux) and give it root access by typing "su".
 
-- For KernelSU users, go into the KernelSU manager app > Superuser, click on your terminal emulator, enable superuser & then restart your terminal emulator.
+- - For KernelSU users, go into the KernelSU manager app > Superuser, click on your terminal emulator, enable superuser & then restart your terminal emulator.
 
 - Go into Termux (or another terminal emulator app) and type "su -c manualota.sh".
 
