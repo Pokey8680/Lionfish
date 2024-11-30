@@ -1,6 +1,6 @@
 id=manualota
 name=ManualOTA
-version=3
-versionCode=2024.11.29
+version=2024.11.30
+versionCode=5
 author=Pokey8680
 description=Update PHH-based GSIs without fastbootd
