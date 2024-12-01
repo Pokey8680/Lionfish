@@ -1,6 +1,7 @@
 # ManualOTA
 A tool for updating PHH-Based GSIs without going to fastbootd
 
+
 # Instructions
 - Download the module from my releases page, and install it using Magisk or KernelSU.
 
@@ -23,6 +24,9 @@ A tool for updating PHH-Based GSIs without going to fastbootd
 
 I apologize for anything unpolished, this was a tool developed by me in haste.
 I could probably develop an elegant app with a nicer UI if I wasn't lazy.
+
+# Why?
+It's useful in some cases. For example, AndyYan's LineageOS GSI, which doesn't come with PHH's OTA updater UI, but you might still want to use his GSI without the hassle of using fastbootd every time you want to update it. This tool makes that easier, you don't have to use fastbootd.
 
 # Troubleshooting
 - If for whatever reason, the system no longer boots properly, you need to go to TWRP or another custom recovery, and delete "/metadata/phh". When you do this and reboot, You should hopefully return to the previous version of the GSI you were using.
