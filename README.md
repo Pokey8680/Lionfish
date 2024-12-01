@@ -8,6 +8,9 @@ A tool for updating PHH-Based GSIs without going to fastbootd
 # Why?
 It's useful in some cases. For example, AndyYan's LineageOS GSI, which doesn't come with PHH's OTA updater UI, but you might still want to use his GSI without the hassle of using fastbootd every time you want to update it. This tool makes that easier, you don't have to use fastbootd.
 
+# Warnings
+- Using this tool in DSU mode is not advised, you are exploring in uncharted territory. This tool was never designed to work in DSU mode, you're on your own.
+
 # Module Installation
 - Download the module from my releases page, and install it using Magisk or KernelSU.
 
