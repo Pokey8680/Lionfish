@@ -5,31 +5,57 @@ clear
 
 # Show a warning about the reboot
 echo "Warning: This process will reboot the device once it is completed."
+echo " "
 echo "Press Enter to continue or CTRL+C to cancel."
 
 # Wait for the user to press Enter
 read -r
 
+# Clear screen
+clear
+
+# Check for Magisk presence
+if [ -f "/system/bin/magisk" ]; then
+    ui_print "Warning: Magisk is installed."
+    ui_print " "
+    ui_print "If you proceed with the installation, you may lose Magisk or the installation may fail!"
+    ui_print " "
+    ui_print "Press Enter to continue or Ctrl+C to cancel."
+    ui_print " "
+    read
+fi
+
+# Clear screen
+clear
+
 # Start phh-ota-make process
-echo "Starting phh-ota-make..."
+echo "Preparing for update..."
 setprop ctl.start phh-ota-make
 
 # Wait 10s
-echo "Waiting for 10 seconds..."
+echo "Please wait..."
 sleep 10
 
 # Copy the system.img to /dev/phh-ota
-echo "Copying system.img to /dev/phh-ota..."
+echo "Copying system.img"
 cp /storage/emulated/0/ManualOTA/system.img /dev/phh-ota
 
 # Start phh-ota-switch process
-echo "Starting phh-ota-switch..."
+echo "Starting update process..."
+echo " "
 setprop ctl.start phh-ota-switch
 
 # Wait 10s
-echo "Waiting for 10 seconds..."
+echo "Please wait..."
+echo " "
 sleep 10
 
+# Clear screen
+clear
+
 # Reboot the device
-echo "Rebooting the device..."
+echo "Done! Rebooting..."
+echo " "
+echo "If you encounter errors, delete /metadata/phh/img from recovery!"
+sleep 6
 reboot
