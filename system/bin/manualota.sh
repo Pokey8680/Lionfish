@@ -3,8 +3,8 @@
 # Clear the screen at the beginning
 clear
 
-# Show a warning about the reboot
-echo "Warning: This process will reboot the device once it is completed."
+# Show introduction message
+echo "ManualOTA Script"
 echo " "
 echo "Press Enter to continue or CTRL+C to cancel."
 echo " "
@@ -58,8 +58,10 @@ sleep 10
 clear
 
 # Reboot the device
-echo "Done! Rebooting..."
+echo "Done! You can reboot when you need to"
+echo "apply the update!"
 echo " "
-echo "If you encounter errors, delete /metadata/phh/img from recovery!"
+echo "If you encounter errors, delete"
+echo "/metadata/phh/img from recovery!"
 sleep 6
-reboot
+
