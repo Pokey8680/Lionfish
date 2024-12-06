@@ -34,3 +34,6 @@ It's useful in some cases. For example, a small ammount of GSIs, which don't com
 
 # 👨‍💻 Troubleshooting 
 - If for whatever reason, the system no longer boots properly, you need to go to TWRP or another custom recovery, and delete "/metadata/phh/img". When you do this and reboot, You should hopefully return to the previous version of the GSI you were using.
+
+# Special Thanks
+- Special thanks to phhusson for creating the OTA mechanism, and publishing the manual OTA script.
