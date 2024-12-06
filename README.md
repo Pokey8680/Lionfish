@@ -10,6 +10,7 @@ It's useful in some cases. For example, a small ammount of GSIs, which don't com
 
 # ⚠️ Warnings 
 - The OTA mechanism may conflict with Magisk.
+ - You may have less issues with KernelSU or APatch.
 
 - Using this tool in DSU mode is not advised, you are exploring in uncharted territory. This tool was never designed to work in DSU mode, you're on your own.
 
