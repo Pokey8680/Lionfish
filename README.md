@@ -6,7 +6,7 @@ A tool for updating PHH-Based GSIs without going to fastbootd
 - It allows an easy way to point to the updated image that PHH's internal mechanisms will use, and my modification also includes strings that put the user in the know of what's happening during the OTA process.
 
 # ❓ Why? 
-It's useful in some cases. For example, AndyYan's LineageOS GSI, which doesn't come with PHH's OTA updater UI, but you might still want to use his GSI without the hassle of using fastbootd every time you want to update it. This tool makes that easier, you don't have to use fastbootd.
+It's useful in some cases. For example, a small ammount of GSIs, which don't come with PHH's OTA updater UI, but you might still want to use their GSI without the hassle of using fastbootd every time you want to update it. This tool makes that easier, you don't have to use fastbootd.
 
 # ⚠️ Warnings 
 - The OTA mechanism may conflict with Magisk.
