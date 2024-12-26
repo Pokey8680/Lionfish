@@ -4,7 +4,7 @@
 clear
 
 # Show introduction message
-echo "ManualOTA Script"
+echo "Lionfish Updater"
 echo " "
 echo "Press Enter to continue or CTRL+C to cancel."
 echo " "
@@ -42,7 +42,7 @@ sleep 10
 # Copy the system.img to /dev/phh-ota
 echo "Copying system.img"
 echo " "
-cp /storage/emulated/0/ManualOTA/system.img /dev/phh-ota
+cp /storage/emulated/0/Lionfish/system.img /dev/phh-ota
 
 # Start phh-ota-switch process
 echo "Starting update process..."
@@ -64,4 +64,4 @@ echo " "
 echo "If you encounter errors, delete"
 echo "/metadata/phh/img from recovery!"
 sleep 6
-
+exit 0

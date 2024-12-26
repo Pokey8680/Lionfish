@@ -1,4 +1,4 @@
-# ManualOTA
+# Lionfish
 A tool for updating PHH-Based GSIs on dynamic devices without going to fastbootd
 
 # 🔎 About this tool 
@@ -11,11 +11,11 @@ It's useful in some cases. For example, a small ammount of GSIs, which don't com
 # 💿 Module Installation 
 - Download the module from my releases page, and install it using Magisk, KernelSU or APatch.
 
-- After installation, it will make a folder in your userdata called ManualOTA.
+- After installation, it will make a folder in your userdata called Lionfish.
 
-- Transfer the updated image of your GSI (unparsed) to the ManualOTA folder, and rename it to "system.img".
+- Transfer the updated image of your GSI (unparsed) to the Lionfish folder, and rename it to "system.img".
 
-- Go into a terminal emulator app & type "su -c ManualOTA.sh".
+- Go into a terminal emulator app & type "su -c lionfish.sh".
 
 - The script will start the phh-ota-make process, which prepares the system to take an update.
 - It will then copy your system.img to /dev/phh-ota, so that it can begin the phh-ota-switch process, which will use internal mechanisms to switch over to the updated GSI image.
