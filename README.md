@@ -13,6 +13,8 @@ It's useful in some cases. For example, a small ammount of GSIs, which don't com
 
 - After installation, it will make a folder in your userdata called Lionfish.
 
+# 📦 Usage
+
 - Transfer the updated image of your GSI (unparsed) to the Lionfish folder, and rename it to "system.img".
 
 - Go into a terminal emulator app & type "su -c lionfish.sh".
