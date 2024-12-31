@@ -26,13 +26,13 @@ It's useful in some cases. For example, -- a small amount of GSIs, which don't c
 
 # Compatibility
 - This tool should work on any device with dynamic partitions - that is, most devices that launched with Android 10 or newer. [**This includes Samsung devices.**](https://t.me/phhtreble/694899)
+  
   - You can check for this in the [Treble Info](https://f-droid.org/en/packages/tk.hack5.treblecheck/) app.
+    
 - The OTA mechanism may conflict with Magisk, you may have less issues with KernelSU or Apatch
   
-  - ![photo_2023-12-07_23-19-11](https://github.com/user-attachments/assets/f0032b7a-deb8-4c86-925a-e35ab7ffe4af)
-  - Example image from PHH's updater GUI
-
   - Please open an issue to confirm.
+    
 - This tool was not meant to be used in DSU mode. You may corrupt your install like this.
 
 # 👨‍💻 Troubleshooting 
