@@ -3,8 +3,8 @@
     <!-- Default App Theme -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- App's primary and secondary colors -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
     </style>
 </resources>
