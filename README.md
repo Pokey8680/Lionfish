@@ -10,7 +10,7 @@ An app to manually update PHH-Based GSIs without fastbootd
 
   # Requirements
 - A device that launched with Android 10 or higher, and with Dynamic Partitions. You can check for this in the [Treble Info](https://f-droid.org/en/packages/tk.hack5.treblecheck/) app. This includes Samsung devices.
-- Root access, preferably KernelSU or Apatch. Magisk *can* work, but it may interfere, see [here](https://github.com/Pokey8680/Lionfish/new/app#issues-with-magisk)
+- Root access, preferably KernelSU or Apatch. Magisk *can* work, but it may interfere, see below
 - A PHH/Trebledroid based GSI that you want to update. (Preferrably Android 12 or higher)
     
 
